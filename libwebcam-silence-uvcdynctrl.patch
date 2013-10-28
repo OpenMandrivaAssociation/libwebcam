@@ -1,0 +1,13 @@
+diff --git a/uvcdynctrl/udev/scripts/uvcdynctrl b/uvcdynctrl/udev/scripts/uvcdynctrl
+index 1ac9eb6..a417e57 100755
+--- a/uvcdynctrl/udev/scripts/uvcdynctrl
++++ b/uvcdynctrl/udev/scripts/uvcdynctrl
+@@ -13,7 +13,7 @@
+ version=0.3
+ 
+ # Run-time configuration
+-debug=1
++debug=0
+ uvcdynctrlpath=uvcdynctrl
+ 
+ # Determine log destination

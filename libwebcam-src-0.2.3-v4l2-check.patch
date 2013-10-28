@@ -1,0 +1,12 @@
+diff -urN libwebcam-src-0.2.3/common/build/cmake_try_v4l2_ctrl_type_string.c libwebcam-src-0.2.3-patched/common/build/cmake_try_v4l2_ctrl_type_string.c
+--- libwebcam-src-0.2.3/common/build/cmake_try_v4l2_ctrl_type_string.c	2013-08-07 20:55:33.000000000 +1100
++++ libwebcam-src-0.2.3-patched/common/build/cmake_try_v4l2_ctrl_type_string.c	2013-10-28 22:22:08.994828555 +1100
+@@ -2,7 +2,7 @@
+ 
+ int main()
+ {
+-	v4l2_ctrl_type t = V4L2_CTRL_TYPE_STRING;
++	enum v4l2_ctrl_type t = V4L2_CTRL_TYPE_STRING;
+ 	struct v4l2_ext_control s;
+ 	s.size;
+ 	s.string;
