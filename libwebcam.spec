@@ -5,7 +5,7 @@
 Summary:	A library for user-space configuration of the uvcvideo driver
 Name:		libwebcam
 Version:	0.2.3
-Release:	1
+Release:	2
 Group:		System/Kernel and hardware
 License:	GPLv3+
 Url:		http://sourceforge.net/p/libwebcam/wiki/Home/
