@@ -8,7 +8,7 @@ Version:	0.2.3
 Release:	2
 Group:		System/Kernel and hardware
 License:	GPLv3+
-Url:		http://sourceforge.net/p/libwebcam/wiki/Home/
+Url:		https://sourceforge.net/p/libwebcam/wiki/Home/
 Source0:	http://downloads.sourceforge.net/%{name}/%{name}-src-%{version}.tar.gz
 Patch0:		libwebcam-silence-uvcdynctrl.patch
 Patch1:		libwebcam-src-0.2.3-v4l2-check.patch
